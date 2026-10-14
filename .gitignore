@@ -1,0 +1,16 @@
+# Personal footage, voice recordings, and generated videos stay local
+assets/avatars/*
+!assets/avatars/README.md
+output/*
+!output/README.md
+*.mp4
+*.mov
+*.m4a
+*.wav
+*.mp3
+
+# Local tooling
+.DS_Store
+node_modules/
+.env
+.env.*
